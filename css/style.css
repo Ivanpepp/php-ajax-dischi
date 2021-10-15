@@ -1,0 +1,60 @@
+/* RESET */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(23, 23, 39);
+}
+header {
+    line-height: 80px;
+    padding: 10px;
+    background-color: rgb(12, 12, 15);
+    margin-bottom: 20px;
+}
+header img{
+   width: 80px;
+   
+}
+.card{
+    border: 1px solid black;
+    margin: 10px;
+    width: calc(100% / 5 - 20px);
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(12, 12, 15);
+}
+ card img{
+    object-fit: cover;
+    object-position: center;
+    
+}
+.my_container{
+    width: 90%;
+    margin:  0 auto;
+}
+.my_super-row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+h1{
+    color: lightgray;
+    font-size: 1.9rem;
+    padding-top: 20px;
+}
+h2{
+    color: lightgray;
+    font-size: 1.4rem;
+}
+h3{
+    color: lightgray;
+    font-size: 1.3rem;
+}
+h4{
+    color: lightgray;
+    font-size: 1rem;
+}
